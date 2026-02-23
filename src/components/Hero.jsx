@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom';
 function Hero() {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/CV.pdf'; // Corrected path for public folder
+    link.href = `${import.meta.env.BASE_URL}CV.pdf`; // Corrected path for public folder
     link.download = 'CV-Abu Bakar.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-  };
+  };  
 
   return (
     <div className="relative min-h-screen flex items-center justify-center p-6 pt-24 sm:p-10 text-white overflow-hidden">
