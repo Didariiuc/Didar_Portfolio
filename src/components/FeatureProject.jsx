@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import BehindPic from '../assets/didar.jpg';
 import BusPic from "../assets/busTicket.jpg"
 import MedicalPic from "../assets/medical.jpg"
-import HotelPic from "../assets/hotel.jpg"
+import HotelPic from "../assets/Hotel.jpg"
 import { FaEye, FaCode, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
