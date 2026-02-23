@@ -16,7 +16,7 @@ import Contact from './components/Contact.jsx'
 import Publication from './components/Publication.jsx'
 import { Navigate } from 'react-router-dom'
 
-const repoName = "/Didar_Portfolio"; // 👈 Set this to your GitHub repo name if deploying to GitHub Pages, otherwise set to "/"
+const repoName = import.meta.env.VITE_BASE_PATH || "/" // 👈 Set this to your GitHub repo name if deploying to GitHub Pages, otherwise set to "/"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
