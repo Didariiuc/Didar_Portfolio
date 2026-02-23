@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function Hero() {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = `${import.meta.env.BASE_URL}CV.pdf`; // Corrected path for public folder
+    link.href = `CV.pdf`; // Corrected path for public folder
     link.download = 'CV-Abu Bakar.pdf';
     document.body.appendChild(link);
     link.click();
