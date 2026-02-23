@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaAward, FaCheckCircle } from "react-icons/fa";
-import RamadaCert from "../assets/ramadan.jpeg"
-import FaangCert from "../assets/cps.png"
-import EdgeCert from "../assets/edge.png"
+import RamadaCert from "../assets/ramadan.JPEG"
+import FaangCert from "../assets/cps.PNG"
+import EdgeCert from "../assets/edge.PNG"
 // 1. IMPORT YOUR IMAGES HERE
 // import MernCert from '../assets/mern-certificate.jpg'; 
 // import JsCert from '../assets/javascript-cert.jpg';
